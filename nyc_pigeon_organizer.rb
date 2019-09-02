@@ -57,7 +57,10 @@ def nyc_pigeon_organizer(data)
       brown_pigeons.each { |n|
       $organized_pigeons[n][:color].push("brown") }      
       c += 1
-      break
+      
+    else 
+      c += 1
+      
   end 
 
 end
